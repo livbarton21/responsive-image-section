@@ -121,3 +121,59 @@ h1 {
 }
 
 }
+
+@media only screen and (min-width:38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+    max-height: 5em;
+  }
+
+  figure {
+    position: relative;
+    right: 300px;
+    top: -215px;
+    max-width: 50%;
+  }
+
+  h1 {
+    padding-right: 17em;
+    position: relative;
+  }
+
+  a {
+    position: relative;
+    top: 8px;
+  }
+
+  .chat {
+    position: relative;
+    top: -20px;
+    margin-right: 0em;
+  }
+
+  .bold {
+    position: relative;
+    top: 1px;
+  }
+
+  h1, p {
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (min-width:60em) {
+
+  html {
+    font-size: 120%
+    line-height: 1.5;
+    max-height: 10em;
+  }
+
+  h1 {
+    position: relative;
+    top: 20px;
+    margin-bottom: 2em;
+  }
+}
