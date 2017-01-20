@@ -110,6 +110,7 @@ section {
 
   .img {
     display: inline-block;
+    margin: 1em 0;
   }
 
   section {
@@ -125,13 +126,23 @@ section {
   }
 
   .img {
-    width: 50%;
+    width: 48%;
     vertical-align: middle;
+    margin: 2em 0;
   }
 
   .bold {
     width: 48%;
     vertical-align: middle;
+    padding: 1rem;
+  }
+
+  .chat {
+    margin-top: 0;
+  }
+
+  section {
+    text-align: left;
     padding: 1rem;
   }
 }
