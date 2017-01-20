@@ -60,6 +60,7 @@ a {
   text-align: center;
   position: relative;
   top: -25px;
+  margin-top: 1rem;
 }
 
 a:hover {
@@ -80,13 +81,17 @@ figure {
   display: block;
 }
 
-header {
+.bold {
   padding: 1em;
 }
 
 div {
   padding-top: 1rem;
   padding-left: 1rem;
+}
+
+.img {
+  padding: 0;
 }
 
 .chat {
