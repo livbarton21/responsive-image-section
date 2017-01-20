@@ -191,14 +191,15 @@ section {
 
   .img {
     position: relative;
-    top: -375px;
+    top: -350px;
     left: 475px;
     display: inline-block;
     margin-top: 0;
+    padding-bottom: 5rem;
   }
 
   .chat {
-    margin-right: 9em;
+    margin-right: 30em;
   }
 
   a {
@@ -233,5 +234,9 @@ section {
     max-width: 37%;
     top: 15px;
     left: 300px;
+  }
+
+  .chat {
+    margin-right: 45em;
   }
 }
