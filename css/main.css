@@ -33,6 +33,11 @@ h1 {
   top: -10px;
 }
 
+p {
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
 h1 p {
   text-align: left;
   margin-bottom: auto;
@@ -40,21 +45,16 @@ h1 p {
 
 .bold {
   margin: 0;
-  padding: 0;
   position: relative;
   top: -10px;
-}
-
-p {
-  padding-top: 0;
-  margin-bottom: 0;
+  padding: 1em;
 }
 
 a {
   color: #fff;
   background-color: #555;
   display: inline-block;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   border-radius: 4px;
   text-decoration: none;
   text-align: center;
@@ -79,10 +79,6 @@ figure {
 .img-flex {
   width: 100%;
   display: block;
-}
-
-.bold {
-  padding: 1em;
 }
 
 div {
@@ -120,7 +116,7 @@ section {
   margin: 0;
 }
 
-@media only screen and (min-width:25em) {
+@media only screen and (min-width: 25em) {
 
   html {
     font-size: 100%;
@@ -138,7 +134,7 @@ section {
 
 }
 
-@media only screen and (min-width:38em) {
+@media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
@@ -179,7 +175,7 @@ section {
   }
 }
 
-@media only screen and (min-width:60em) {
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
@@ -211,7 +207,7 @@ section {
   }
 }
 
-@media only screen and (min-width:90em) {
+@media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
