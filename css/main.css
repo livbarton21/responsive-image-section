@@ -34,10 +34,48 @@ h1 {
   top: -10px;
 }
 
-div {
+h1 p {
+  text-align: left;
+  margin-bottom: auto;
+}
+
+.bold {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -10px;
+}
+
+p {
+  padding-top: 0;
+}
+
+a {
+  color: #fff;
+  background-color: #555;
   display: inline-block;
-  max-width: 25em;
+  padding: 0.5em 0.75em;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  top: -25px;
+}
+
+figure {
+  margin: 0;
+  background-color: #e2e2e2;
+  max-width: 100%;
   vertical-align: middle;
+}
+
+.img-flex {
+  width: 100%
+  display: block;
+}
+
+header,div {
+  padding: 1em;
 }
 
 .text {
